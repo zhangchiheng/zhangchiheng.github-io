@@ -1,0 +1,59 @@
+clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	background: url(../img/jpeg.jpg) center top fixed ;
+	min-height: 1200;	
+}
+wapper{
+	max-width: 1200px;
+	padding: 20px;
+	margin: auto;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+header{
+	position: relative ;
+	margin: 30px 0px;
+	}
+.logo h1{
+	display: none;
+		
+	}
+.logo img{
+	width: 80px;
+	height: auto;
+}
+.mainNav{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mainNav ul li{
+	float: left;
+	margin: 20px 30px;
+}
+.mainNav ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 20px;
+	border: 1px solid transparent;
+	transition: color;.5s,border: .5s;
+}
+.mainNav ul li a:hover{
+	color: #000;
+	border: 1px solid #FFF;
+}
+header h2{
+	margin: 50px 0;
+	font-size: 30px;
+}
+
